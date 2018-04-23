@@ -1,0 +1,106 @@
+@media screen and (max-width: 480px) {
+    div.Grid-x {
+        width:100% !important;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    div.Grid-x {
+        width:50% !important;
+    }
+}
+
+.header {
+    width: 100%;
+    position: relative;
+    height: 12%;
+    border-radius: 8px;
+    background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.header .content {
+    position: absolute;
+    /* width: 100%; */
+    left: 2%;
+}
+
+.header .content h1 {
+    color: white;
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .options1 {
+    display: inline-block;
+    position: absolute;
+    right: 3;
+    top: 60%;
+}
+
+.select-input {
+    border-color: yellowgreen;
+    border-radius: 60px;
+    cursor: pointer;
+    border: 0;
+    width: 130px;
+    height: 23px;
+}
+
+.theme-button {
+    border-radius: 80%;
+    border: 0;
+    cursor: pointer;
+}
+
+.select-input:hover {
+    background-color: #66c2ff;
+}
+
+.right-nav {
+    float: right;
+    height: 80%;
+    width: 12%;
+    position: relative;
+    border-radius: 10px;
+    background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    margin-top: 5px;
+    margin-right: 1px;
+}
+
+
+.right-nav .leftIcon {
+    top: 0;
+    position: relative;
+    left: 5;
+    cursor: pointer;
+    color: rebeccapurple;
+}
+
+#right-nav-div1 .rightIcon {
+    cursor: pointer;
+    color: rebeccapurple;
+}
+
+.footer-div{
+    position:relative;
+    width:100%;
+}
+
+footer {
+    border-radius: 8px;
+    color: white;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    text-align: center;
+    display: block;
+    bottom: 0;
+}
+
+.center-div{
+    border-style: groove;
+    width: 100%;
+    position: relative;
+    height: 80%;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.3);
+}
